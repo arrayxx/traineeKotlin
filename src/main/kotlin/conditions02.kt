@@ -52,17 +52,67 @@ fun main(args: Array<String>) {
     // 4. Return, Break, Continue
 
     fun sumOfNumbers(arrayOfNumbers: IntArray) {
+        var count = 0
         for (i in arrayOfNumbers) {
-            if (i == 0) {
+            if (i < 0) {
+                // коряво да, но println почему-то не выводится за пределами for
+                // наверно нужен return функции, но у нас Unit и у меня ошибка не соответствия типов
+                println("Сумма чисел равна: $count")
                 return
-            }
-            if (i > 10 ) {
-                val sumOfNumbers = i+i
-                println("Сумма чисел до 10: $sumOfNumbers")
+            } else if (i > 10) {
+                count += i
             }
         }
     }
 
-    val arrayOfNumbers = intArrayOf(2, 2, 1, 0)
+    val arrayOfNumbers = intArrayOf(2, 25, 15, 700, 0, 11, -5, 0, 10)
     sumOfNumbers(arrayOfNumbers)
+
+    print("Ряд числел от 1 до 10 без цифр 3 и 7: ")
+    for (i in 1..10) {
+        if (i == 3 || i == 7) {
+            continue
+        }
+        if (i != 10) {
+            print("$i, ")
+        } else {
+            print("$i")
+        }
+    }
+
+    // индусский код, чтобы перенести строку
+    println()
+    // поиск суммы до 50
+    var count = 0
+    for (i in 10..99) {
+        count += i
+        if (count > 50) {
+            println("Сумма текущих чисел превышает 50: $count")
+            break
+        }
+    }
+
+    // ошибка формата ввода
+    try {
+        println("Введите целое число:")
+        val inputException: Int = readln().toInt()
+        println("Число корректное и равно $inputException")
+    } catch (e: NumberFormatException) {
+        println("Вы используете текст для ввода! Используйте число")
+    } finally {
+        println("Конец программы")
+    }
+
+    // деление на ноль
+    try {
+        val numerator = 10
+        val denominator = 0
+        val result = numerator / denominator
+        println("Result: $result")
+    } catch (e: ArithmeticException) {
+        println("Ошибка: деление на ноль")
+        e.printStackTrace()
+    }
+    println("Конец программы")
+
 }
