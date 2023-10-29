@@ -39,9 +39,17 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Conditions02Kt">
+  <component name="RunManager" selected="Kotlin.functions03">
     <configuration name="Conditions02Kt" type="JetRunConfigurationType" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Conditions02Kt" />
+      <module name="traineeKotlin" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="functions03" type="JetRunConfigurationType">
+      <option name="MAIN_CLASS_NAME" value="Functions03Kt" />
       <module name="traineeKotlin" />
       <shortenClasspath name="NONE" />
       <method v="2">
@@ -58,6 +66,7 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.Conditions02Kt" />
+      <item itemvalue="Kotlin.functions03" />
       <item itemvalue="Kotlin.introduction01" />
     </list>
   </component>
