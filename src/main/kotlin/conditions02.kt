@@ -104,9 +104,10 @@ fun main(args: Array<String>) {
     }
 
     // деление на ноль
+    val numerator = 10
+    val denominator = 0
+
     try {
-        val numerator = 10
-        val denominator = 0
         val result = numerator / denominator
         println("Result: $result")
     } catch (e: ArithmeticException) {
@@ -114,5 +115,6 @@ fun main(args: Array<String>) {
         e.printStackTrace()
     }
     println("Конец программы")
+
 
 }
