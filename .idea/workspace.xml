@@ -7,6 +7,7 @@
     <list default="true" id="0ae047b3-4250-4bd6-a959-652b0b88d3a3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/conditions02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/conditions02.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/functions03.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/functions03.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.functions03">
+  <component name="RunManager" selected="Kotlin.Conditions02Kt">
     <configuration name="Conditions02Kt" type="JetRunConfigurationType" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Conditions02Kt" />
       <module name="traineeKotlin" />

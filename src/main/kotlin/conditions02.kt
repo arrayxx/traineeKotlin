@@ -51,22 +51,21 @@ fun main(args: Array<String>) {
 
     // 4. Return, Break, Continue
 
-    fun sumOfNumbers(arrayOfNumbers: IntArray) {
+    fun sumOfNumbers(arrayOfNumbers: IntArray): Int {
         var count = 0
         for (i in arrayOfNumbers) {
-            if (i < 0) {
-                // коряво да, но println почему-то не выводится за пределами for
-                // наверно нужен return функции, но у нас Unit и у меня ошибка не соответствия типов
-                println("Сумма чисел равна: $count")
-                return
-            } else if (i > 10) {
+            if (i > 10) {
                 count += i
+            } else if (i < 0) {
+                return count
             }
         }
+        return count
     }
 
-    val arrayOfNumbers = intArrayOf(2, 25, 15, 700, 0, 11, -5, 0, 10)
-    sumOfNumbers(arrayOfNumbers)
+    val arrayOfNumbers = intArrayOf(2, 25, 15, 700, 0, 11, 5, 50, 10)
+    val sum = sumOfNumbers(arrayOfNumbers)
+    println("Сумма чисел равна: $sum")
 
     print("Ряд числел от 1 до 10 без цифр 3 и 7: ")
     for (i in 1..10) {
