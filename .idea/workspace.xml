@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ae047b3-4250-4bd6-a959-652b0b88d3a3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/functions03.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/functions03.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Script" />
       </list>
     </option>
   </component>
@@ -34,12 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "object-oriented-programming"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "kotlin"
+    ]
   }
-}</component>
-  <component name="RunManager" selected="Kotlin.functions03">
+}]]></component>
+  <component name="RunManager">
     <configuration name="Conditions02Kt" type="JetRunConfigurationType" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Conditions02Kt" />
       <module name="traineeKotlin" />
@@ -103,5 +110,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/functions03.kt</url>
+          <line>86</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
