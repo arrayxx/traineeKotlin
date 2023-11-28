@@ -25,5 +25,5 @@ accessToQualities()
 
 // проверяем, что вызов параметров name и age недоступен напрямую
 // получим ошибку error: cannot access 'name':/'age': it is private in 'Companion'
-Person.name
-Person.age
+//Person.name
+//Person.age
