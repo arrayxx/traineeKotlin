@@ -7,7 +7,7 @@ enum class DayOfWeek(val value: String, val day: String) {
     DAY6("sixth", "Saturday"),
     DAY7("seventh", "Sunday");
     // создадим метод для вывода дня недели
-    fun listOfDays(days: DayOfWeek): String {
+    fun listOfDays(): String {
         return value + " day is " + day;
     }
 }
@@ -18,7 +18,7 @@ fun getListOfDays() {
     val daysOfWeek = DayOfWeek.values()
     // цикл для вывода всех дней недели
     for (day in daysOfWeek) {
-        println(day.listOfDays(day))
+        println(day.listOfDays())
     }
 }
 
