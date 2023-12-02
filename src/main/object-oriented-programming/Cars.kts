@@ -13,9 +13,9 @@ class Car {
 val myCar = Car()
 myCar.drive()
 // изменим какие-нибудь параметры, например цвет и год
-myCar.let {
-    it.color = "Violet"
-    it.year = "2021"
+myCar.run {
+    color = "Violet"
+    year = "2021"
 }
 // еще раз вызовем экземпляр класса
 myCar.drive()

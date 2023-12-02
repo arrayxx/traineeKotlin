@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ae047b3-4250-4bd6-a959-652b0b88d3a3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/object-oriented-programming/Cars.kts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/object-oriented-programming/Cars.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/object-oriented-programming/DayOfWeek.kts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/object-oriented-programming/DayOfWeek.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/object-oriented-programming/Person.main.kts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/object-oriented-programming/Person.main.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/object-oriented-programming/PersonGetSet.main.kts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/object-oriented-programming/PersonGetSet.main.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +50,7 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.Conditions02Kt">
     <configuration name="Conditions02Kt" type="JetRunConfigurationType" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Conditions02Kt" />
       <module name="traineeKotlin" />
