@@ -1,12 +1,5 @@
-class Person {
-    // создадим дополнительный объект внутри класса
-    companion object {
-        // сделаем переменные приватными, т.е. видимыми только внутри класса
-        // переменные должны быть доступны при вызове методов класса извне класса
-        // т.к. companion object - это публичный объект
-        private val name = "Савелий"
-        private val age = 24
-    }
+class Person(private val name: String = "Савелий",
+             private val age: Int = 24) {
     fun getName(): String {
         return name
     }
