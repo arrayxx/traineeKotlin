@@ -10,7 +10,7 @@ class Person() {
                 if (value.length <= 50) {
                 println(field)
                 } else {
-                    println("Строка слишком длинная! Длина должна быть 50 символов")
+                    throw IllegalArgumentException("Строка слишком длинная! Длина должна быть 50 символов")
                 }
             }
         var age: Int = 0
@@ -21,7 +21,7 @@ class Person() {
                 if (value > 0) {
                     println(value)
                 } else {
-                    println("Ошибка! Возраст не может быть отрицательным")
+                    throw IllegalArgumentException("Ошибка! Возраст не может быть отрицательным")
                 }
             }
     }
