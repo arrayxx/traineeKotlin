@@ -7,6 +7,7 @@ out/
 src/
 !**/main/object-oriented-programming/Cars.main.kts
 !**/main/object-oriented-programming/DayOfWeek.main.kts
+traineeKotlin.iml
 
 ### Eclipse ###
 .apt_generated
