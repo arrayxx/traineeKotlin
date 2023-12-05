@@ -7,22 +7,18 @@ class Person() {
             // в сеттере сделаем проверку на длину строки
             set(value) {
             field = value
-                if (value.length <= 50) {
-                println(field)
-                } else {
-                    throw IllegalArgumentException("Строка слишком длинная! Длина должна быть 50 символов")
-                }
+                if (value.length >= 50) {
+                    throw IllegalArgumentException("Строка слишком длинная! Длина должна быть 50 символов") }
+            println(field)
             }
         var age: Int = 0
             get() = field
             // в сеттере для возраста сделаем проверку на отрицательное число
             set(value) {
                 field = value
-                if (value > 0) {
-                    println(value)
-                } else {
-                    throw IllegalArgumentException("Ошибка! Возраст не может быть отрицательным")
-                }
+                if (value < 0) {
+                    throw IllegalArgumentException("Ошибка! Возраст не может быть отрицательным") }
+            println(field)
             }
     }
 }
