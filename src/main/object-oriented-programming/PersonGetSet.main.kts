@@ -7,8 +7,8 @@ class Person() {
             // в сеттере сделаем проверку на длину строки
             set(value) {
             field = value
-                if (value.length >= 50) {
-                    throw IllegalArgumentException("Строка слишком длинная! Длина должна быть 50 символов") }
+                if (value.length >= 51) {
+                    throw IllegalArgumentException("Строка слишком длинная! Длина должна быть не больше 50 символов") }
             println(field)
             }
         var age: Int = 0
