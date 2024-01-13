@@ -18,10 +18,10 @@ fun main() {
     }
 
     // создадим дочерний класс Circle
-    // в конструкторе добавим две переменные - число Пи и радиус
+    // в конструкторе добавим переменную радиус
     // площадь считается по формуле пи*радиус в квадрате
-    class Circle(private val pi: Double = PI, private val r: Double): Shape() {
-        override fun area(): Double = pi * r*r
+    class Circle(private val r: Double): Shape() {
+        override fun area(): Double = PI * r*r
     }
 
     // cоздадим дочерний класс Rectangle
