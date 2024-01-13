@@ -19,20 +19,12 @@ class Airplane(): Flyable {
     override fun fly() = println("Самолет летит при помощи двигателя")
 }
 
-fun birdFly() {
-    // создадим экземпляр класса Bird - birdFly
-    val birdFly = Bird().fly()
-}
-
-fun airplaneFly() {
-    // создадим экземпляр класса Airplane - airplaneFly
-    val airplaneFly = Airplane().fly()
-}
-
 // вызовем оба экземпляра класса
 fun main() {
-    birdFly()
-    airplaneFly()
+    val birdFly = Bird().fly()
+    val airplaneFly = Airplane().fly()
+    birdFly
+    airplaneFly
 }
 
 
