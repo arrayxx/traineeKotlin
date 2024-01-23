@@ -22,11 +22,6 @@ sealed class MathOperation() {
         деления на ноль через конструкцию try - catch
         */
         fun divide(a: Int, b: Int): Int {
-            // поменял try - catch на throw
-            // действительно, при такой конструкции Int не обязательно проверять на Null
-            if (b == 0) {
-                throw ArithmeticException("Деление на ноль!")
-            }
             return a/b
         }
     }
