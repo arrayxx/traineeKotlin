@@ -5,7 +5,7 @@
  */
 
 // создадим кастомный класс InvalidUserInputException, который наследуется от Exception
-class InvalidUserInputException(YouDoItWrong: String): Exception(YouDoItWrong) {
+class InvalidUserInputException(youDoItWrong: String): Exception(youDoItWrong) {
 }
 
 // создадим функцию, которая выбрасывает InvalidUserInputException с заданным текстом
